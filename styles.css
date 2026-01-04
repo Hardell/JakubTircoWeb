@@ -197,6 +197,12 @@
     height: 1.2em;
     opacity: 0;
     transition: opacity 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.artwork-name a:hover {
+    text-decoration: underline !important;
 }
 
 .artwork-name:empty::before {
